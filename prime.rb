@@ -3,7 +3,7 @@ def prime?(number)
     number *= -1
   end
 
-  if number == 0 || number == 1 || number == 2
+  if number == 0 || number == 1 || number == 2 || number == 3
     return true
   else
     Prime.each(number) do |i|
