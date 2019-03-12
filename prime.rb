@@ -4,11 +4,12 @@ def prime?(number)
   else
     if number == 0 || number == 1
       return false
-    else if number == 2
+    else if number == 2 || number == 3
       return true
     else
-      primes = [2]
-      for i in 3..number
+      primes = [2,3]
+      for i in 4..number
+        for num in primes
         
       end
       
